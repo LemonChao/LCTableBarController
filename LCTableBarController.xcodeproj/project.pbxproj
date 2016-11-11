@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C39DC7B1DD49FDC001BBFF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C39DC7A1DD49FDC001BBFF4 /* main.m */; };
+		6C39DC7E1DD49FDC001BBFF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C39DC7D1DD49FDC001BBFF4 /* AppDelegate.m */; };
+		6C39DC811DD49FDC001BBFF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C39DC801DD49FDC001BBFF4 /* ViewController.m */; };
+		6C39DC841DD49FDC001BBFF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C39DC821DD49FDC001BBFF4 /* Main.storyboard */; };
+		6C39DC861DD49FDC001BBFF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C39DC851DD49FDC001BBFF4 /* Assets.xcassets */; };
+		6C39DC891DD49FDC001BBFF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C39DC871DD49FDC001BBFF4 /* LaunchScreen.storyboard */; };
+		6C39DC941DD49FDC001BBFF4 /* LCTableBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C39DC931DD49FDC001BBFF4 /* LCTableBarControllerTests.m */; };
+		6C39DC9F1DD49FDC001BBFF4 /* LCTableBarControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C39DC9E1DD49FDC001BBFF4 /* LCTableBarControllerUITests.m */; };
+		6C39DCB11DD4A06A001BBFF4 /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C39DCB01DD4A06A001BBFF4 /* SecondVC.m */; };
+		6C39DCB51DD4A0AB001BBFF4 /* LCTabbleBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C39DCB41DD4A0AB001BBFF4 /* LCTabbleBarVC.m */; };
+		6C39DCB81DD4A0DF001BBFF4 /* LCTableBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C39DCB71DD4A0DF001BBFF4 /* LCTableBar.m */; };
+		6C39DCBB1DD4A133001BBFF4 /* UIButton+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C39DCBA1DD4A133001BBFF4 /* UIButton+Utility.m */; };
+		6C96A9FA1DD56C480071049A /* guangchang@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C96A9E61DD56C480071049A /* guangchang@2x.png */; };
+		6C96A9FB1DD56C480071049A /* guangchang@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C96A9E71DD56C480071049A /* guangchang@3x.png */; };
+		6C96A9FC1DD56C480071049A /* guangchangmoren@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C96A9E81DD56C480071049A /* guangchangmoren@2x.png */; };
+		6C96A9FD1DD56C480071049A /* guangchangmoren@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C96A9E91DD56C480071049A /* guangchangmoren@3x.png */; };
+		6C96A9FE1DD56C480071049A /* shangcheng@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C96A9EA1DD56C480071049A /* shangcheng@2x.png */; };
+		6C96A9FF1DD56C480071049A /* shangcheng@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C96A9EB1DD56C480071049A /* shangcheng@3x.png */; };
+		6C96AA001DD56C480071049A /* shangchengmoren@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C96A9EC1DD56C480071049A /* shangchengmoren@2x.png */; };
+		6C96AA011DD56C480071049A /* shangchengmoren@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C96A9ED1DD56C480071049A /* shangchengmoren@3x.png */; };
+		6C96AA021DD56C480071049A /* wo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C96A9EE1DD56C480071049A /* wo@2x.png */; };
+		6C96AA031DD56C480071049A /* wo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C96A9EF1DD56C480071049A /* wo@3x.png */; };
+		6C96AA041DD56C480071049A /* womoren@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C96A9F01DD56C480071049A /* womoren@2x.png */; };
+		6C96AA051DD56C480071049A /* womoren@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C96A9F11DD56C480071049A /* womoren@3x.png */; };
+		6C96AA061DD56C480071049A /* xinwen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C96A9F21DD56C480071049A /* xinwen@2x.png */; };
+		6C96AA071DD56C480071049A /* xinwen@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C96A9F31DD56C480071049A /* xinwen@3x.png */; };
+		6C96AA081DD56C480071049A /* xinwenmoren@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C96A9F41DD56C480071049A /* xinwenmoren@2x.png */; };
+		6C96AA091DD56C480071049A /* xinwenmoren@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C96A9F51DD56C480071049A /* xinwenmoren@3x.png */; };
+		6C96AA0A1DD56C480071049A /* zhengwu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C96A9F61DD56C480071049A /* zhengwu@2x.png */; };
+		6C96AA0B1DD56C480071049A /* zhengwu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C96A9F71DD56C480071049A /* zhengwu@3x.png */; };
+		6C96AA0C1DD56C480071049A /* zhengwumoren@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C96A9F81DD56C480071049A /* zhengwumoren@2x.png */; };
+		6C96AA0D1DD56C480071049A /* zhengwumoren@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C96A9F91DD56C480071049A /* zhengwumoren@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C39DC901DD49FDC001BBFF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C39DC6E1DD49FDC001BBFF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C39DC751DD49FDC001BBFF4;
+			remoteInfo = LCTableBarController;
+		};
+		6C39DC9B1DD49FDC001BBFF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C39DC6E1DD49FDC001BBFF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C39DC751DD49FDC001BBFF4;
+			remoteInfo = LCTableBarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C39DC761DD49FDC001BBFF4 /* LCTableBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCTableBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C39DC7A1DD49FDC001BBFF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C39DC7C1DD49FDC001BBFF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6C39DC7D1DD49FDC001BBFF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6C39DC7F1DD49FDC001BBFF4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6C39DC801DD49FDC001BBFF4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6C39DC831DD49FDC001BBFF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C39DC851DD49FDC001BBFF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C39DC881DD49FDC001BBFF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C39DC8A1DD49FDC001BBFF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C39DC8F1DD49FDC001BBFF4 /* LCTableBarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCTableBarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C39DC931DD49FDC001BBFF4 /* LCTableBarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCTableBarControllerTests.m; sourceTree = "<group>"; };
+		6C39DC951DD49FDC001BBFF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C39DC9A1DD49FDC001BBFF4 /* LCTableBarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCTableBarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C39DC9E1DD49FDC001BBFF4 /* LCTableBarControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCTableBarControllerUITests.m; sourceTree = "<group>"; };
+		6C39DCA01DD49FDC001BBFF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C39DCAF1DD4A06A001BBFF4 /* SecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
+		6C39DCB01DD4A06A001BBFF4 /* SecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
+		6C39DCB31DD4A0AB001BBFF4 /* LCTabbleBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCTabbleBarVC.h; sourceTree = "<group>"; };
+		6C39DCB41DD4A0AB001BBFF4 /* LCTabbleBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCTabbleBarVC.m; sourceTree = "<group>"; };
+		6C39DCB61DD4A0DF001BBFF4 /* LCTableBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCTableBar.h; sourceTree = "<group>"; };
+		6C39DCB71DD4A0DF001BBFF4 /* LCTableBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCTableBar.m; sourceTree = "<group>"; };
+		6C39DCB91DD4A133001BBFF4 /* UIButton+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Utility.h"; sourceTree = "<group>"; };
+		6C39DCBA1DD4A133001BBFF4 /* UIButton+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Utility.m"; sourceTree = "<group>"; };
+		6C96A9E61DD56C480071049A /* guangchang@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guangchang@2x.png"; sourceTree = "<group>"; };
+		6C96A9E71DD56C480071049A /* guangchang@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guangchang@3x.png"; sourceTree = "<group>"; };
+		6C96A9E81DD56C480071049A /* guangchangmoren@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guangchangmoren@2x.png"; sourceTree = "<group>"; };
+		6C96A9E91DD56C480071049A /* guangchangmoren@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guangchangmoren@3x.png"; sourceTree = "<group>"; };
+		6C96A9EA1DD56C480071049A /* shangcheng@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shangcheng@2x.png"; sourceTree = "<group>"; };
+		6C96A9EB1DD56C480071049A /* shangcheng@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shangcheng@3x.png"; sourceTree = "<group>"; };
+		6C96A9EC1DD56C480071049A /* shangchengmoren@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shangchengmoren@2x.png"; sourceTree = "<group>"; };
+		6C96A9ED1DD56C480071049A /* shangchengmoren@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shangchengmoren@3x.png"; sourceTree = "<group>"; };
+		6C96A9EE1DD56C480071049A /* wo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wo@2x.png"; sourceTree = "<group>"; };
+		6C96A9EF1DD56C480071049A /* wo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wo@3x.png"; sourceTree = "<group>"; };
+		6C96A9F01DD56C480071049A /* womoren@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "womoren@2x.png"; sourceTree = "<group>"; };
+		6C96A9F11DD56C480071049A /* womoren@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "womoren@3x.png"; sourceTree = "<group>"; };
+		6C96A9F21DD56C480071049A /* xinwen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xinwen@2x.png"; sourceTree = "<group>"; };
+		6C96A9F31DD56C480071049A /* xinwen@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xinwen@3x.png"; sourceTree = "<group>"; };
+		6C96A9F41DD56C480071049A /* xinwenmoren@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xinwenmoren@2x.png"; sourceTree = "<group>"; };
+		6C96A9F51DD56C480071049A /* xinwenmoren@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xinwenmoren@3x.png"; sourceTree = "<group>"; };
+		6C96A9F61DD56C480071049A /* zhengwu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zhengwu@2x.png"; sourceTree = "<group>"; };
+		6C96A9F71DD56C480071049A /* zhengwu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zhengwu@3x.png"; sourceTree = "<group>"; };
+		6C96A9F81DD56C480071049A /* zhengwumoren@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zhengwumoren@2x.png"; sourceTree = "<group>"; };
+		6C96A9F91DD56C480071049A /* zhengwumoren@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zhengwumoren@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C39DC731DD49FDC001BBFF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C39DC8C1DD49FDC001BBFF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C39DC971DD49FDC001BBFF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C39DC6D1DD49FDC001BBFF4 = {
+			isa = PBXGroup;
+			children = (
+				6C39DC781DD49FDC001BBFF4 /* LCTableBarController */,
+				6C39DC921DD49FDC001BBFF4 /* LCTableBarControllerTests */,
+				6C39DC9D1DD49FDC001BBFF4 /* LCTableBarControllerUITests */,
+				6C39DC771DD49FDC001BBFF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C39DC771DD49FDC001BBFF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C39DC761DD49FDC001BBFF4 /* LCTableBarController.app */,
+				6C39DC8F1DD49FDC001BBFF4 /* LCTableBarControllerTests.xctest */,
+				6C39DC9A1DD49FDC001BBFF4 /* LCTableBarControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C39DC781DD49FDC001BBFF4 /* LCTableBarController */ = {
+			isa = PBXGroup;
+			children = (
+				6C39DC7C1DD49FDC001BBFF4 /* AppDelegate.h */,
+				6C39DC7D1DD49FDC001BBFF4 /* AppDelegate.m */,
+				6C39DC7F1DD49FDC001BBFF4 /* ViewController.h */,
+				6C39DC801DD49FDC001BBFF4 /* ViewController.m */,
+				6C39DCAF1DD4A06A001BBFF4 /* SecondVC.h */,
+				6C39DCB01DD4A06A001BBFF4 /* SecondVC.m */,
+				6C96A9E51DD56C480071049A /* imgRoot */,
+				6C39DCB21DD4A0AB001BBFF4 /* LCTableBarVC */,
+				6C39DC821DD49FDC001BBFF4 /* Main.storyboard */,
+				6C39DC851DD49FDC001BBFF4 /* Assets.xcassets */,
+				6C39DC871DD49FDC001BBFF4 /* LaunchScreen.storyboard */,
+				6C39DC8A1DD49FDC001BBFF4 /* Info.plist */,
+				6C39DC791DD49FDC001BBFF4 /* Supporting Files */,
+			);
+			path = LCTableBarController;
+			sourceTree = "<group>";
+		};
+		6C39DC791DD49FDC001BBFF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C39DC7A1DD49FDC001BBFF4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C39DC921DD49FDC001BBFF4 /* LCTableBarControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C39DC931DD49FDC001BBFF4 /* LCTableBarControllerTests.m */,
+				6C39DC951DD49FDC001BBFF4 /* Info.plist */,
+			);
+			path = LCTableBarControllerTests;
+			sourceTree = "<group>";
+		};
+		6C39DC9D1DD49FDC001BBFF4 /* LCTableBarControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C39DC9E1DD49FDC001BBFF4 /* LCTableBarControllerUITests.m */,
+				6C39DCA01DD49FDC001BBFF4 /* Info.plist */,
+			);
+			path = LCTableBarControllerUITests;
+			sourceTree = "<group>";
+		};
+		6C39DCB21DD4A0AB001BBFF4 /* LCTableBarVC */ = {
+			isa = PBXGroup;
+			children = (
+				6C39DCB31DD4A0AB001BBFF4 /* LCTabbleBarVC.h */,
+				6C39DCB41DD4A0AB001BBFF4 /* LCTabbleBarVC.m */,
+				6C39DCB61DD4A0DF001BBFF4 /* LCTableBar.h */,
+				6C39DCB71DD4A0DF001BBFF4 /* LCTableBar.m */,
+				6C39DCB91DD4A133001BBFF4 /* UIButton+Utility.h */,
+				6C39DCBA1DD4A133001BBFF4 /* UIButton+Utility.m */,
+			);
+			path = LCTableBarVC;
+			sourceTree = "<group>";
+		};
+		6C96A9E51DD56C480071049A /* imgRoot */ = {
+			isa = PBXGroup;
+			children = (
+				6C96A9E61DD56C480071049A /* guangchang@2x.png */,
+				6C96A9E71DD56C480071049A /* guangchang@3x.png */,
+				6C96A9E81DD56C480071049A /* guangchangmoren@2x.png */,
+				6C96A9E91DD56C480071049A /* guangchangmoren@3x.png */,
+				6C96A9EA1DD56C480071049A /* shangcheng@2x.png */,
+				6C96A9EB1DD56C480071049A /* shangcheng@3x.png */,
+				6C96A9EC1DD56C480071049A /* shangchengmoren@2x.png */,
+				6C96A9ED1DD56C480071049A /* shangchengmoren@3x.png */,
+				6C96A9EE1DD56C480071049A /* wo@2x.png */,
+				6C96A9EF1DD56C480071049A /* wo@3x.png */,
+				6C96A9F01DD56C480071049A /* womoren@2x.png */,
+				6C96A9F11DD56C480071049A /* womoren@3x.png */,
+				6C96A9F21DD56C480071049A /* xinwen@2x.png */,
+				6C96A9F31DD56C480071049A /* xinwen@3x.png */,
+				6C96A9F41DD56C480071049A /* xinwenmoren@2x.png */,
+				6C96A9F51DD56C480071049A /* xinwenmoren@3x.png */,
+				6C96A9F61DD56C480071049A /* zhengwu@2x.png */,
+				6C96A9F71DD56C480071049A /* zhengwu@3x.png */,
+				6C96A9F81DD56C480071049A /* zhengwumoren@2x.png */,
+				6C96A9F91DD56C480071049A /* zhengwumoren@3x.png */,
+			);
+			path = imgRoot;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C39DC751DD49FDC001BBFF4 /* LCTableBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C39DCA31DD49FDC001BBFF4 /* Build configuration list for PBXNativeTarget "LCTableBarController" */;
+			buildPhases = (
+				6C39DC721DD49FDC001BBFF4 /* Sources */,
+				6C39DC731DD49FDC001BBFF4 /* Frameworks */,
+				6C39DC741DD49FDC001BBFF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LCTableBarController;
+			productName = LCTableBarController;
+			productReference = 6C39DC761DD49FDC001BBFF4 /* LCTableBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C39DC8E1DD49FDC001BBFF4 /* LCTableBarControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C39DCA61DD49FDC001BBFF4 /* Build configuration list for PBXNativeTarget "LCTableBarControllerTests" */;
+			buildPhases = (
+				6C39DC8B1DD49FDC001BBFF4 /* Sources */,
+				6C39DC8C1DD49FDC001BBFF4 /* Frameworks */,
+				6C39DC8D1DD49FDC001BBFF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C39DC911DD49FDC001BBFF4 /* PBXTargetDependency */,
+			);
+			name = LCTableBarControllerTests;
+			productName = LCTableBarControllerTests;
+			productReference = 6C39DC8F1DD49FDC001BBFF4 /* LCTableBarControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C39DC991DD49FDC001BBFF4 /* LCTableBarControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C39DCA91DD49FDC001BBFF4 /* Build configuration list for PBXNativeTarget "LCTableBarControllerUITests" */;
+			buildPhases = (
+				6C39DC961DD49FDC001BBFF4 /* Sources */,
+				6C39DC971DD49FDC001BBFF4 /* Frameworks */,
+				6C39DC981DD49FDC001BBFF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C39DC9C1DD49FDC001BBFF4 /* PBXTargetDependency */,
+			);
+			name = LCTableBarControllerUITests;
+			productName = LCTableBarControllerUITests;
+			productReference = 6C39DC9A1DD49FDC001BBFF4 /* LCTableBarControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C39DC6E1DD49FDC001BBFF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = LemonChao;
+				TargetAttributes = {
+					6C39DC751DD49FDC001BBFF4 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					6C39DC8E1DD49FDC001BBFF4 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6C39DC751DD49FDC001BBFF4;
+					};
+					6C39DC991DD49FDC001BBFF4 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6C39DC751DD49FDC001BBFF4;
+					};
+				};
+			};
+			buildConfigurationList = 6C39DC711DD49FDC001BBFF4 /* Build configuration list for PBXProject "LCTableBarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C39DC6D1DD49FDC001BBFF4;
+			productRefGroup = 6C39DC771DD49FDC001BBFF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C39DC751DD49FDC001BBFF4 /* LCTableBarController */,
+				6C39DC8E1DD49FDC001BBFF4 /* LCTableBarControllerTests */,
+				6C39DC991DD49FDC001BBFF4 /* LCTableBarControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C39DC741DD49FDC001BBFF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C96A9FD1DD56C480071049A /* guangchangmoren@3x.png in Resources */,
+				6C96AA071DD56C480071049A /* xinwen@3x.png in Resources */,
+				6C96AA091DD56C480071049A /* xinwenmoren@3x.png in Resources */,
+				6C96AA0A1DD56C480071049A /* zhengwu@2x.png in Resources */,
+				6C96A9FB1DD56C480071049A /* guangchang@3x.png in Resources */,
+				6C96AA041DD56C480071049A /* womoren@2x.png in Resources */,
+				6C96AA061DD56C480071049A /* xinwen@2x.png in Resources */,
+				6C96AA001DD56C480071049A /* shangchengmoren@2x.png in Resources */,
+				6C39DC891DD49FDC001BBFF4 /* LaunchScreen.storyboard in Resources */,
+				6C96AA0C1DD56C480071049A /* zhengwumoren@2x.png in Resources */,
+				6C96AA0B1DD56C480071049A /* zhengwu@3x.png in Resources */,
+				6C96AA081DD56C480071049A /* xinwenmoren@2x.png in Resources */,
+				6C96AA021DD56C480071049A /* wo@2x.png in Resources */,
+				6C96A9FF1DD56C480071049A /* shangcheng@3x.png in Resources */,
+				6C96A9FA1DD56C480071049A /* guangchang@2x.png in Resources */,
+				6C96AA0D1DD56C480071049A /* zhengwumoren@3x.png in Resources */,
+				6C96AA011DD56C480071049A /* shangchengmoren@3x.png in Resources */,
+				6C96AA051DD56C480071049A /* womoren@3x.png in Resources */,
+				6C96A9FE1DD56C480071049A /* shangcheng@2x.png in Resources */,
+				6C39DC861DD49FDC001BBFF4 /* Assets.xcassets in Resources */,
+				6C39DC841DD49FDC001BBFF4 /* Main.storyboard in Resources */,
+				6C96AA031DD56C480071049A /* wo@3x.png in Resources */,
+				6C96A9FC1DD56C480071049A /* guangchangmoren@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C39DC8D1DD49FDC001BBFF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C39DC981DD49FDC001BBFF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C39DC721DD49FDC001BBFF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C39DC811DD49FDC001BBFF4 /* ViewController.m in Sources */,
+				6C39DCBB1DD4A133001BBFF4 /* UIButton+Utility.m in Sources */,
+				6C39DCB81DD4A0DF001BBFF4 /* LCTableBar.m in Sources */,
+				6C39DCB51DD4A0AB001BBFF4 /* LCTabbleBarVC.m in Sources */,
+				6C39DC7E1DD49FDC001BBFF4 /* AppDelegate.m in Sources */,
+				6C39DCB11DD4A06A001BBFF4 /* SecondVC.m in Sources */,
+				6C39DC7B1DD49FDC001BBFF4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C39DC8B1DD49FDC001BBFF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C39DC941DD49FDC001BBFF4 /* LCTableBarControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C39DC961DD49FDC001BBFF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C39DC9F1DD49FDC001BBFF4 /* LCTableBarControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C39DC911DD49FDC001BBFF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C39DC751DD49FDC001BBFF4 /* LCTableBarController */;
+			targetProxy = 6C39DC901DD49FDC001BBFF4 /* PBXContainerItemProxy */;
+		};
+		6C39DC9C1DD49FDC001BBFF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C39DC751DD49FDC001BBFF4 /* LCTableBarController */;
+			targetProxy = 6C39DC9B1DD49FDC001BBFF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C39DC821DD49FDC001BBFF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C39DC831DD49FDC001BBFF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C39DC871DD49FDC001BBFF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C39DC881DD49FDC001BBFF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C39DCA11DD49FDC001BBFF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C39DCA21DD49FDC001BBFF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C39DCA41DD49FDC001BBFF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LCTableBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LemonTechnology.LCTableBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6C39DCA51DD49FDC001BBFF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LCTableBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LemonTechnology.LCTableBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6C39DCA71DD49FDC001BBFF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LCTableBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LemonTechnology.LCTableBarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LCTableBarController.app/LCTableBarController";
+			};
+			name = Debug;
+		};
+		6C39DCA81DD49FDC001BBFF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LCTableBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LemonTechnology.LCTableBarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LCTableBarController.app/LCTableBarController";
+			};
+			name = Release;
+		};
+		6C39DCAA1DD49FDC001BBFF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LCTableBarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LemonTechnology.LCTableBarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LCTableBarController;
+			};
+			name = Debug;
+		};
+		6C39DCAB1DD49FDC001BBFF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LCTableBarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LemonTechnology.LCTableBarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LCTableBarController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C39DC711DD49FDC001BBFF4 /* Build configuration list for PBXProject "LCTableBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C39DCA11DD49FDC001BBFF4 /* Debug */,
+				6C39DCA21DD49FDC001BBFF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C39DCA31DD49FDC001BBFF4 /* Build configuration list for PBXNativeTarget "LCTableBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C39DCA41DD49FDC001BBFF4 /* Debug */,
+				6C39DCA51DD49FDC001BBFF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C39DCA61DD49FDC001BBFF4 /* Build configuration list for PBXNativeTarget "LCTableBarControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C39DCA71DD49FDC001BBFF4 /* Debug */,
+				6C39DCA81DD49FDC001BBFF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C39DCA91DD49FDC001BBFF4 /* Build configuration list for PBXNativeTarget "LCTableBarControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C39DCAA1DD49FDC001BBFF4 /* Debug */,
+				6C39DCAB1DD49FDC001BBFF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C39DC6E1DD49FDC001BBFF4 /* Project object */;
+}
