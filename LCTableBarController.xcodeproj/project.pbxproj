@@ -19,6 +19,9 @@
 		6C39DCB51DD4A0AB001BBFF4 /* LCTabbleBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C39DCB41DD4A0AB001BBFF4 /* LCTabbleBarVC.m */; };
 		6C39DCB81DD4A0DF001BBFF4 /* LCTableBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C39DCB71DD4A0DF001BBFF4 /* LCTableBar.m */; };
 		6C39DCBB1DD4A133001BBFF4 /* UIButton+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C39DCBA1DD4A133001BBFF4 /* UIButton+Utility.m */; };
+		6C6FD1B11E8B5DE400A5ED1E /* navigationBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C6FD1B01E8B5DE400A5ED1E /* navigationBar.png */; };
+		6C6FD1B41E8B866500A5ED1E /* UIViewController+BackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6FD1B31E8B866500A5ED1E /* UIViewController+BackButtonHandler.m */; };
+		6C6FD1B71E8B888B00A5ED1E /* SystemBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6FD1B61E8B888B00A5ED1E /* SystemBaseVC.m */; };
 		6C96A9FA1DD56C480071049A /* guangchang@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C96A9E61DD56C480071049A /* guangchang@2x.png */; };
 		6C96A9FB1DD56C480071049A /* guangchang@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C96A9E71DD56C480071049A /* guangchang@3x.png */; };
 		6C96A9FC1DD56C480071049A /* guangchangmoren@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C96A9E81DD56C480071049A /* guangchangmoren@2x.png */; };
@@ -39,6 +42,12 @@
 		6C96AA0B1DD56C480071049A /* zhengwu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C96A9F71DD56C480071049A /* zhengwu@3x.png */; };
 		6C96AA0C1DD56C480071049A /* zhengwumoren@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C96A9F81DD56C480071049A /* zhengwumoren@2x.png */; };
 		6C96AA0D1DD56C480071049A /* zhengwumoren@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C96A9F91DD56C480071049A /* zhengwumoren@3x.png */; };
+		6C9E09201E7FAEC100A2C59E /* LCBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9E091F1E7FAEC100A2C59E /* LCBaseVC.m */; };
+		6C9E09261E7FB05C00A2C59E /* BaseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9E09251E7FB05C00A2C59E /* BaseNavController.m */; };
+		6C9E09291E7FB61D00A2C59E /* CustomVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9E09281E7FB61D00A2C59E /* CustomVC.m */; };
+		6C9E09341E7FCA9600A2C59E /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9E09331E7FCA9600A2C59E /* BaseViewController.m */; };
+		6C9E09371E7FCD0200A2C59E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9E09361E7FCD0200A2C59E /* Reachability.m */; };
+		6C9E093A1E7FCD8100A2C59E /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9E09391E7FCD8100A2C59E /* UIImage+Color.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +92,11 @@
 		6C39DCB71DD4A0DF001BBFF4 /* LCTableBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCTableBar.m; sourceTree = "<group>"; };
 		6C39DCB91DD4A133001BBFF4 /* UIButton+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Utility.h"; sourceTree = "<group>"; };
 		6C39DCBA1DD4A133001BBFF4 /* UIButton+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Utility.m"; sourceTree = "<group>"; };
+		6C6FD1B01E8B5DE400A5ED1E /* navigationBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigationBar.png; sourceTree = "<group>"; };
+		6C6FD1B21E8B866500A5ED1E /* UIViewController+BackButtonHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BackButtonHandler.h"; sourceTree = "<group>"; };
+		6C6FD1B31E8B866500A5ED1E /* UIViewController+BackButtonHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BackButtonHandler.m"; sourceTree = "<group>"; };
+		6C6FD1B51E8B888B00A5ED1E /* SystemBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemBaseVC.h; sourceTree = "<group>"; };
+		6C6FD1B61E8B888B00A5ED1E /* SystemBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemBaseVC.m; sourceTree = "<group>"; };
 		6C96A9E61DD56C480071049A /* guangchang@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guangchang@2x.png"; sourceTree = "<group>"; };
 		6C96A9E71DD56C480071049A /* guangchang@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guangchang@3x.png"; sourceTree = "<group>"; };
 		6C96A9E81DD56C480071049A /* guangchangmoren@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guangchangmoren@2x.png"; sourceTree = "<group>"; };
@@ -103,6 +117,18 @@
 		6C96A9F71DD56C480071049A /* zhengwu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zhengwu@3x.png"; sourceTree = "<group>"; };
 		6C96A9F81DD56C480071049A /* zhengwumoren@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zhengwumoren@2x.png"; sourceTree = "<group>"; };
 		6C96A9F91DD56C480071049A /* zhengwumoren@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zhengwumoren@3x.png"; sourceTree = "<group>"; };
+		6C9E091E1E7FAEC100A2C59E /* LCBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCBaseVC.h; sourceTree = "<group>"; };
+		6C9E091F1E7FAEC100A2C59E /* LCBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCBaseVC.m; sourceTree = "<group>"; };
+		6C9E09241E7FB05C00A2C59E /* BaseNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavController.h; sourceTree = "<group>"; };
+		6C9E09251E7FB05C00A2C59E /* BaseNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavController.m; sourceTree = "<group>"; };
+		6C9E09271E7FB61D00A2C59E /* CustomVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomVC.h; sourceTree = "<group>"; };
+		6C9E09281E7FB61D00A2C59E /* CustomVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomVC.m; sourceTree = "<group>"; };
+		6C9E09321E7FCA9600A2C59E /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		6C9E09331E7FCA9600A2C59E /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		6C9E09351E7FCD0200A2C59E /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		6C9E09361E7FCD0200A2C59E /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		6C9E09381E7FCD8100A2C59E /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		6C9E09391E7FCD8100A2C59E /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +185,8 @@
 				6C39DC801DD49FDC001BBFF4 /* ViewController.m */,
 				6C39DCAF1DD4A06A001BBFF4 /* SecondVC.h */,
 				6C39DCB01DD4A06A001BBFF4 /* SecondVC.m */,
+				6C9E09271E7FB61D00A2C59E /* CustomVC.h */,
+				6C9E09281E7FB61D00A2C59E /* CustomVC.m */,
 				6C96A9E51DD56C480071049A /* imgRoot */,
 				6C39DCB21DD4A0AB001BBFF4 /* LCTableBarVC */,
 				6C39DC821DD49FDC001BBFF4 /* Main.storyboard */,
@@ -205,6 +233,20 @@
 				6C39DCB71DD4A0DF001BBFF4 /* LCTableBar.m */,
 				6C39DCB91DD4A133001BBFF4 /* UIButton+Utility.h */,
 				6C39DCBA1DD4A133001BBFF4 /* UIButton+Utility.m */,
+				6C9E091E1E7FAEC100A2C59E /* LCBaseVC.h */,
+				6C9E091F1E7FAEC100A2C59E /* LCBaseVC.m */,
+				6C9E09241E7FB05C00A2C59E /* BaseNavController.h */,
+				6C9E09251E7FB05C00A2C59E /* BaseNavController.m */,
+				6C9E09351E7FCD0200A2C59E /* Reachability.h */,
+				6C9E09361E7FCD0200A2C59E /* Reachability.m */,
+				6C9E09381E7FCD8100A2C59E /* UIImage+Color.h */,
+				6C9E09391E7FCD8100A2C59E /* UIImage+Color.m */,
+				6C6FD1B51E8B888B00A5ED1E /* SystemBaseVC.h */,
+				6C6FD1B61E8B888B00A5ED1E /* SystemBaseVC.m */,
+				6C9E09321E7FCA9600A2C59E /* BaseViewController.h */,
+				6C9E09331E7FCA9600A2C59E /* BaseViewController.m */,
+				6C6FD1B21E8B866500A5ED1E /* UIViewController+BackButtonHandler.h */,
+				6C6FD1B31E8B866500A5ED1E /* UIViewController+BackButtonHandler.m */,
 			);
 			path = LCTableBarVC;
 			sourceTree = "<group>";
@@ -232,6 +274,7 @@
 				6C96A9F71DD56C480071049A /* zhengwu@3x.png */,
 				6C96A9F81DD56C480071049A /* zhengwumoren@2x.png */,
 				6C96A9F91DD56C480071049A /* zhengwumoren@3x.png */,
+				6C6FD1B01E8B5DE400A5ED1E /* navigationBar.png */,
 			);
 			path = imgRoot;
 			sourceTree = "<group>";
@@ -343,6 +386,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C96A9FD1DD56C480071049A /* guangchangmoren@3x.png in Resources */,
+				6C6FD1B11E8B5DE400A5ED1E /* navigationBar.png in Resources */,
 				6C96AA071DD56C480071049A /* xinwen@3x.png in Resources */,
 				6C96AA091DD56C480071049A /* xinwenmoren@3x.png in Resources */,
 				6C96AA0A1DD56C480071049A /* zhengwu@2x.png in Resources */,
@@ -389,13 +433,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C6FD1B41E8B866500A5ED1E /* UIViewController+BackButtonHandler.m in Sources */,
+				6C9E09201E7FAEC100A2C59E /* LCBaseVC.m in Sources */,
+				6C6FD1B71E8B888B00A5ED1E /* SystemBaseVC.m in Sources */,
 				6C39DC811DD49FDC001BBFF4 /* ViewController.m in Sources */,
+				6C9E09341E7FCA9600A2C59E /* BaseViewController.m in Sources */,
 				6C39DCBB1DD4A133001BBFF4 /* UIButton+Utility.m in Sources */,
 				6C39DCB81DD4A0DF001BBFF4 /* LCTableBar.m in Sources */,
 				6C39DCB51DD4A0AB001BBFF4 /* LCTabbleBarVC.m in Sources */,
 				6C39DC7E1DD49FDC001BBFF4 /* AppDelegate.m in Sources */,
 				6C39DCB11DD4A06A001BBFF4 /* SecondVC.m in Sources */,
 				6C39DC7B1DD49FDC001BBFF4 /* main.m in Sources */,
+				6C9E09261E7FB05C00A2C59E /* BaseNavController.m in Sources */,
+				6C9E09371E7FCD0200A2C59E /* Reachability.m in Sources */,
+				6C9E09291E7FB61D00A2C59E /* CustomVC.m in Sources */,
+				6C9E093A1E7FCD8100A2C59E /* UIImage+Color.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

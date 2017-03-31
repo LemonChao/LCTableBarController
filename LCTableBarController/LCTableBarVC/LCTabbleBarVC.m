@@ -10,6 +10,7 @@
 #import "ViewController.h"
 #import "SecondVC.h"
 #import "LCTableBar.h"
+#import "BaseNavController.h"
 
 
 @interface LCTabbleBarVC ()<LCTableBarDelegate>
@@ -27,8 +28,8 @@
     ViewController *vc1 = [[ViewController alloc] init];
     SecondVC   *vc2   = [[SecondVC alloc] init];
     
-    UINavigationController *nav1 = [[UINavigationController alloc] initWithRootViewController:vc1];
-    UINavigationController *nav2 = [[UINavigationController alloc] initWithRootViewController:vc2];
+    BaseNavController *nav1 = [[BaseNavController alloc] initWithRootViewController:vc1];
+    BaseNavController *nav2 = [[BaseNavController alloc] initWithRootViewController:vc2];
     
     self.viewControllers = @[nav1,
                              nav2];
